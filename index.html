@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">National Centre For Excellence</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus life</a></li>
+                <li><a href="#achivements">Achievments</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to comment on school ***
+            </marquee>
+        </div>
+        <iframe id="video" width="864" height="486" src="https://www.youtube.com/embed/RuVBQrIBxkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">campus life</h2>
+        </div>
+        <div class="row">
+            <div class="campus_life_maindiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="school.jfif">
+                <h6 class="text-capitalize text-left"><kbd>national centre for excellence-campus</kbd></h6>
+                <hr>
+                <p class="text-muted text-left">National Centre for Excellence (NCFE) is a co-educational private school in Bengaluru, Karnataka, India. It was established in 2006 and is part of the Vijay Kiran Education Trust. It is affiliated to the Central Board of Secondary Education.The school is one of the 257 schools across India, selected for the establishment of Atal Tinkering Laboratories.</p>
+            </div>
+
+            <div class="campus_life_maindiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="art.jfif">
+                <h6 class="text-capitalize text-left"><kbd>ART CLASSROOM</kbd></h6>
+                <hr>
+                <p class="text-muted text-left">Creativity is an essential aspect in today’s world. The performing arts help inculcate creative thinking amongst students and exposure in the arts is very vital for a child’s growth and harmony. At NCFE, children are taught to be resourceful, think creatively and be empowered. A well-rounded curriculum displays complete education and performing arts such as music and dance play an major role in completing this. </p>
+            </div>
+
+            <div class="campus_life_maindiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="computer.jfif">
+                <h6 class="text-capitalize text-left"><kbd>smart class-technology</kbd></h6>
+                <hr>
+                <p class="text-muted text-left">ATL is an approach of the Central government of India to create an environment of scientific temperament, innovation and creativity amongst Indian students. It provides a platform for the students to solve problems of the community with their innovative ideas and explore the world of advanced technology. National Centre for Excellence became a part of the ATAL Tinkering Lab on the 31st August 2017.</p>
+            </div>
+        </div>
+        <div class="page-header" id="achivements">
+            <h2 class="text-capitalize">school achievments</h2>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school-achievment-1">
+            Young Chef India School <i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="school-achievment-1">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="chef.jfif" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h4 class="text-success text-left text-capitalize"></h4>
+                <p class="text-left">“Young Chef India Schools” is a life changing opportunity for Higher Secondary students where the budding Chefs get a glimpse of the Culinary Industry and can exercise their love for cooking. Every year around 25000 students from more than 1000 schools across India take part to bag the most coveted title of IIHM Young Chef India.</p>
+            </div>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school-achievment-2">
+            WIZ National Spell Bee Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="school-achievment-2">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="featured-whizquiz.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h4 class="text-success text-left text-capitalize"></h4>
+                <p class="text-left">The WIZ National Spell Bee Competition starts at the school level and progresses to the National Level through the Interschool and State Level Competitions.
+                    This is the first spelling competition of its kind in India for School Children with a new approach that combines learning with fun and competition. In fact the key thought was to guide students on a different competition route, thereby engaging them in the English language practice.</p>
+
+            </div>
+        </div>
+
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school-achievment-3">
+            ATAL Tinkering Lab<i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="school-achievment-3">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="atal.jfif" class="img-responsive img-thumbnail">  
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h4 class="text-success text-left text-capitalize"></h4>
+                <p class="text-left">ATL is an approach of the Central government of India to create an environment of scientific temperament, innovation and creativity amongst Indian students . It is a step towards a new India. It provides a platform for the students to solve problems of the community with their innovative ideas and explore the world of advanced technology.</p>
+            </div>
+        </div>
+
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactus">
+            <h1 class="text-capatilize">Contact Us</h1>
+        </div>
+        <div class="map col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8836587567826!2d77.67182741482215!3d12.979292290850793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae115da9e5f7bf%3A0x6f9e9936a319d1d!2sNational%20Centre%20for%20Excellence!5e0!3m2!1sen!2sin!4v1625987859246!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="details">
+            <img class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" src="principle.png">
+            <h2>Principal name: </h2>
+            <h3>Susan Barrid</h3>
+            <div class="contactus_1">
+                <a href="mailto:nationalcentreforexcellence@gmail.com?Subject=HI">
+                    <h4><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h4>
+                </a>
+                <a href="nationalcentreforexcellenceid">
+                    <h4><i class="fa fa-instagram"></i>&nbsp;&nbsp;school@id</h4>
+                </a>
+                <a href="nationalcentreforexcellenceid">
+                    <h4><i class="fa fa-phone-square"></i>&nbsp;&nbsp;123456789</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
